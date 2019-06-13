@@ -1,0 +1,31 @@
+
+{
+    "data":[
+       {
+        "ul1":[
+            {"title": "美食", "imgUrl": "../../public/images/01.png"},
+            {"title": "喵喵电影", "imgUrl": "http://47.100.118.229/miaomiao/"},
+            {"title": "酒店", "imgUrl": "../../public/images/03.png"},
+            {"title": "休闲娱乐", "imgUrl": "../../public/images/04.png"},
+            {"title": "外卖", "imgUrl": "../../public/images/05.png"},
+            {"title": "KTV", "imgUrl": "../../public/images/06.png"},
+            {"title": "周边游", "imgUrl": "../../public/images/07.png"},
+            {"title": "丽人", "imgUrl": "../../public/images/08.png"},
+            {"title": "小吃快餐", "imgUrl": "../../public/images/09.png"},
+            {"title": "生活服务", "imgUrl": "../../public/images/10.png"}
+            ]},
+        {"ul1":[
+            {"title": "今日新单", "imgUrl": -1, "locationY": -1},
+            {"title": "足疗/按摩", "imgUrl": -84, "locationY": 0},
+            {"title": "甜点饮品", "imgUrl": -167, "locationY": 0},
+            {"title": "母音亲子", "imgUrl": -251, "locationY": 0},
+            {"title": "学习培训", "imgUrl": -335, "locationY": 0},
+            {"title": "结婚", "imgUrl": -1, "locationY": -82},
+            {"title": "家装", "imgUrl": -84, "locationY": -82},
+            {"title": "汽车服务", "imgUrl": -167, "locationY": -82},
+            {"title": "川湘菜", "imgUrl": -251, "locationY": -82},
+            {"title": "全部分类", "imgUrl": -335, "locationY": -82}
+            ]
+        }
+    ]
+}

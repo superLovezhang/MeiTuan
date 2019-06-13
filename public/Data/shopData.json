@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "imgUrl": "https://p0.meituan.net/200.0/deal/b4eefa487833ef9baa0e8362871e800516363.jpg@115_0_297_297a%7C267h_267w_2e_90Q",
+            "title": "味多美",
+            "descri": "[278店通用]经典100%蛋糕1个，约20cm，圆形",
+            "price": 196,
+            "shopPrice": 218,
+            "sale": 135115
+        },
+        {
+            "imgUrl": "https://p0.meituan.net/200.0/deal/3879253eeb38e3d5eac3ec9c1ce5724641489.jpeg@73_0_293_293a%7C267h_267w_2e_100Q",
+            "title": "东来顺饭庄",
+            "descri": "[3店通用]冬来顺四人餐，有赠品",
+            "price": 238,
+            "shopPrice": 634,
+            "sale": 23629
+        },
+        {
+            "imgUrl": "https://p1.meituan.net/200.0/deal/83e8003955dca2d4ff04adc4175580af65509.jpg@87_0_527_527a%7C267h_267w_2e_90Q",
+            "title": "东彤轩烤肉火锅自助",
+            "descri": "[回龙观]火锅烤肉单人自助",
+            "price": 59,
+            "shopPrice": 70,
+            "sale": 214414
+        }
+    ]
+}
