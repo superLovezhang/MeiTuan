@@ -4,7 +4,7 @@
           <div class="btns">
               <a href="/Login">登录</a>
               <a href="/Register">注册</a>
-              <span>城市：</span><a href="#" class="footer-city">武汉</a>
+              <span>城市：</span><a href="/Address" class="footer-city">武汉</a>
           </div>
           <div class="footer-nav">
               <a href="#">首页</a>
