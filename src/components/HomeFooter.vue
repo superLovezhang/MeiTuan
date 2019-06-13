@@ -2,8 +2,8 @@
   <div>
       <div class="footer">
           <div class="btns">
-              <a href="#">登录</a>
-              <a href="#">注册</a>
+              <a href="/Login">登录</a>
+              <a href="/Register">注册</a>
               <span>城市：</span><a href="#" class="footer-city">武汉</a>
           </div>
           <div class="footer-nav">
