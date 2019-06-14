@@ -16,7 +16,6 @@
             <router-link to="/Login/verificate" class="login">手机验证登录</router-link>
         </div>
         <div class="free-space">
-
         </div>
       </div>
       <router-view></router-view>   

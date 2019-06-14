@@ -1,29 +1,5 @@
-# meituan
+## 下载后npm run serve 开启服务
 
-## Project setup
-```
-npm install
-```
+## 进行了移动端手机适配 各个手机均进行等比例放大
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 该网页登录即注册
