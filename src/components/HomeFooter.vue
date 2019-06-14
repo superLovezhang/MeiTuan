@@ -2,9 +2,12 @@
   <div>
       <div class="footer">
           <div class="btns">
-              <a href="/Login">登录</a>
-              <a href="/Register">注册</a>
-              <span>城市：</span><a href="/Address" class="footer-city">武汉</a>
+              <!-- <a href="/Login">登录</a>
+              <a href="/Register">注册</a> -->
+              <a :href="item.herfs" v-for="item in UserData" :key="item.user">{{ item.user }}</a>
+              <div class="right-btn clearfix">
+                  <span>城市：</span><a href="/Address" class="footer-city">武汉</a>
+              </div>
           </div>
           <div class="footer-nav">
               <a href="#">首页</a>
@@ -43,7 +46,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data(){
+        return{
+            UserData: JSON.parse(window.localStorage.getItem('user')) || [{user: '登录', herfs: '/Login'}, {user: '注册', herfs: '/Register'}]
+        }
+    }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -62,17 +71,29 @@ $rem: 469/16rem;
             color: $primary-color;
             display: inline-block;
             border-radius: 3px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
             border: 1px solid $primary-color;
             &:nth-of-type(3){
                 margin-right: 0;
             }
         }
-        .footer-city{
-            width: 112/$rem;
+        .right-btn{
+            float: right;
+            display: flex;
+            align-items: center;
+            .footer-city{
+                width: 112/$rem;
+            }
+            span{
+                display: inline-block;
+                line-height: 38/$rem;
+            }
         }
-        :nth-child(2){
-            margin-right: 113/$rem;
-        }
+        // :nth-child(2){
+        //     margin-right: 113/$rem;
+        // }
     }
     .footer-nav{
         margin-bottom: 25/$rem;

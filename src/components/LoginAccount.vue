@@ -1,13 +1,13 @@
 <template>
   <div>
       <div class="input-wrap">
-          <input type="text" placeholder="账户名/手机号/Email">
-          <input type="password" placeholder="请输入您的密码">
+          <input type="text" placeholder="账户名/手机号/Email" v-model="user">
+          <input type="password" placeholder="请输入您的密码" v-model="password">
           <div class="input-bottom">
-              <a href="#" class="account-login">登录</a>
+              <a href="#" class="account-login" @touchstart="login">登录</a>
               <div class="btns">
-                <a href="#" class="register-btn">注册</a>
-                <a href="#" class="retrieve-password">找回密码</a>
+                <a href="/Register" class="register-btn">注册</a>
+                <a href="/Retrieve" class="retrieve-password">找回密码</a>
               </div>
           </div>
       </div>
@@ -15,7 +15,25 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data(){
+        return{
+            user:'',
+            password:''
+        }
+    },
+    methods:{
+        login(){
+            let user = [];
+            if(this.user !== ''){
+                user.push({"user": this.user, "password": this.password, herfs: '/Mine'});
+                user = JSON.stringify(user);
+                window.localStorage.setItem('user',user);
+                this.$router.replace('/Mine');
+            }
+        }
+    }
+}
 </script>
 
 <style lang="scss" scoped>

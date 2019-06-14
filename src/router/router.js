@@ -6,6 +6,7 @@ import Home from './Home';
 import Mine from './Mine';
 import Login from './Login';
 import Address from './Address'
+import Retrieve from './Retrieve';
 import Register from './Register';
 
 export default new Router({
@@ -24,6 +25,7 @@ export default new Router({
     Mine,,
     Login,
     Address,
+    Retrieve,
     Register
   ]
 })

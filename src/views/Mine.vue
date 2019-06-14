@@ -19,7 +19,7 @@
         <img src="https://ms0.meituan.net/touch/img/pic-default.png" alt="">
       </div>
       <div class="account-info">
-        <p>ycd673050811</p>
+        <p>{{ userName }}</p>
         <p>账户余额：<span>0</span>元</p>
         <i class="iconfont icon-right"></i>
       </div>
@@ -91,6 +91,11 @@ export default {
   components:{
     TopBar,
     MineFooter
+  },
+  computed:{
+    userName(){
+      return JSON.parse(window.localStorage.getItem('user'))[0].user;
+    }
   }
 };
 </script>
