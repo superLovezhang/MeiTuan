@@ -4,6 +4,7 @@ Vue.use(Router)
 
 import Home from './Home';
 import Mine from './Mine';
+import Shop from './Shop';
 import Login from './Login';
 import Address from './Address'
 import Retrieve from './Retrieve';
@@ -22,7 +23,8 @@ export default new Router({
       component: () => import('@/views/Search.vue')
     },
     Home,
-    Mine,,
+    Mine,
+    Shop,
     Login,
     Address,
     Retrieve,

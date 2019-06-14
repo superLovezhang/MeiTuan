@@ -31,7 +31,7 @@
     <div class="shop-list">
       <dl>
         <dt>猜你喜欢</dt>
-        <router-link tag="dd" to="/shop" v-for="(item, index) in shopData" :key="index">
+        <router-link tag="dd" to="/Shop" v-for="(item, index) in shopData" :key="index">
           <img :src="item.imgUrl">
           <div class="item">
             <h3>{{ item.title }}</h3>
